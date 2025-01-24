@@ -8,10 +8,6 @@ permalink: /research
 
 ---
 
-This is regarding the direction of my project research group the Max Planck Institute for Biochemistry.
-
----
-
 The spatial arrangement in 3D (structure) of biomolecules dictates what kinds of physical interactions are favorable and therefore which biological functions are accessible to DNA/RNA/proteins. 
 Finding exactly which geometrical patterns within these molecules are the ones we should pay attention to is a needle in the haystack problem.
 In this group, we take the data-driven approach.
@@ -41,6 +37,4 @@ Structural patterns adopted by molecules are often dynamic and noisy, making tra
 
 # Open Positions
 
-If you find this interesting, we are looking for a highly motivated **PhD student** to work at the intersection of structural biology, deep learning and pattern mining on graphs. ([posting]({{site.url}}/assets/phd_search.pdf))([submit application](https://recruitingapp-5446.de.umantis.com/VacanciesIntraxData/452/Application/New/2))
-
-Please contact me for more info: oliver@biochem.mpg.de
+Please contact more info: carlos.oliver@vanderbilt.edu
