@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: "Research Group"
+title: "Research"
 nav: true
 order: 1
 permalink: /research
