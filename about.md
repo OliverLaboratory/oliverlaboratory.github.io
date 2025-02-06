@@ -1,10 +1,10 @@
 ---
 
 layout: page
-title: "Research"
+title: "About"
 nav: true
 order: 1
-permalink: /research
+permalink: /about
 
 ---
 
