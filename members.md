@@ -34,12 +34,12 @@ border: 0px solid #787878;
 
 </table>
 
-<h2> Students </h2>
+<h2> PhD Students </h2>
 
 <table>
   <tr>
     <td><img src="/assets/book.png" id="fig"></td>
-    <td><b>Carlos Oliver, PhD</b><br>
+    <td>Luis Wyss (co-supervison, Karsten Borgwardt)<b></b><br>
 	Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
 	<i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology </i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>) </td>
   </tr>
