@@ -30,6 +30,7 @@ border: 0px solid #787878;
   <tr>
     <td><img src="/assets/me_lowlow.png" id="fig"></td>
     <td><b>Carlos Oliver, PhD</b><br>
+    </td>
   </tr>
 
 </table>
