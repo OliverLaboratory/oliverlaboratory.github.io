@@ -8,8 +8,6 @@ order: 2
 
 ---
 
-Welcome to my blog! Below you will find my posts on some of my interests, including RNA algorithmics, Python, machine learning, and blockchain. I try to keep my posts as self-contained and educational as possible. Hope you like it!
-
 <h1 class="page-heading">Posts</h1>
 
 <ul>
