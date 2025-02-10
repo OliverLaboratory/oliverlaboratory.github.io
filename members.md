@@ -30,7 +30,9 @@ border: 0px solid #787878;
   <tr>
     <td><img src="/assets/me_lowlow.png" id="fig"></td>
     <td><b>Carlos Oliver, PhD</b><br>
-    blabla
+    <i> Assistant Professor, Molecular Physiology and Biophysics </i> <br><br>
+
+    
     </td>
   </tr>
 
