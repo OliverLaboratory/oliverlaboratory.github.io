@@ -31,7 +31,7 @@ border: 0px solid #787878;
     <td><img src="/assets/rnamigos2.png" id="fig"></td>
     <td><b>Semi-supervised learning and large-scale docking data accelerate RNA virtual screening</b><br>
 	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver', Jerome Waldispuhl'<br>
-	<i>bioRxiv (2023) </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
+	<i>Nature Communication (2025, accepted) </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
   </tr>
 </table>
 
