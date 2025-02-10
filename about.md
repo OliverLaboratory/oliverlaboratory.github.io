@@ -37,4 +37,4 @@ Structural patterns adopted by molecules are often dynamic and noisy, making tra
 
 # Open Positions
 
-Please contact more info: carlos.oliver@vanderbilt.edu
+Looking for PhD and MSc students. Please contact me with your CV and project ideas: carlos.oliver@vanderbilt.edu
