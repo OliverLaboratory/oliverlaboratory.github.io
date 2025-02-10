@@ -29,10 +29,11 @@ border: 0px solid #787878;
 <table>
   <tr>
     <td><img src="/assets/me_lowlow.png" id="fig"></td>
-    <td><b>Carlos Oliver, PhD</b><br>
+    <td><b>Carlos Oliver, PhD [<a href="https://calosoliver.co">homepage</a>]</b><br>
     <i> Assistant Professor, Molecular Physiology and Biophysics </i> <br><br>
-
-    
+    I obtained my PhD in Computer Science at McGill University under the supervision of 
+    Jerome Waldispuhl and William Hamilton building geometric deep learning methods for pattern mining
+    and drug discovery in RNA molecules. 
     </td>
   </tr>
 
