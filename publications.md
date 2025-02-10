@@ -34,8 +34,3 @@ border: 0px solid #787878;
 	<i>Nature Communications (2025, accepted) </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) </td>
   </tr>
 </table>
-
-<!--Other:-->
-
-<!--* Ph.D. Comprehensive Exam Literature Review ([PDF]({{ site.url  }}/assets/review_cgo.pdf))-->
-<!--* M.Sc. Thesis ([PDF]({{ site.url   }}/assets/msc_thesis.pdf))-->
