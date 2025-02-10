@@ -40,6 +40,9 @@ border: 0px solid #787878;
 </table>
 
 
+# Open Positions
+
+Looking for PhD and MSc students. Please contact me with your CV and project ideas: carlos.oliver@vanderbilt.edu
 
 <!--Other:-->
 
