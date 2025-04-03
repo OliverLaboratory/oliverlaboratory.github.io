@@ -37,11 +37,7 @@ b {
 
 /* Links */
 a {
-    color: #1a73e8;
     text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
 }
 
 /* Responsive design for mobile */
