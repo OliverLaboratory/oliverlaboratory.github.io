@@ -3,52 +3,112 @@ layout: default
 ---
 
 <div class="home">
-	<h1> Oliver Laboratory</h1>
+    <h1>Oliver Laboratory</h1>
 
-<div class='row'>
-	<div class='column'>
-		<img src="/assets/mirror.png" width=80%>
-	</div>
-	<div class='column'>
-	<h2> Finis </h2> 
+    <div class="row">
+        <div class="column">
+            <img src="/assets/mirror.png" class="home-img" alt="Oliver Laboratory Image">
+        </div>
+        <div class="column">
+            <h2>Finis</h2>
+            To make molecular structure data useful at evolutionary scales.
 
-	To make molecular structure data useful at evolutionary scales.
+            <h2>Modus Vivendi</h2>
+            Building interpretable geometric deep learning models and graph algorithms linking 3D structure and dynamics to function and back. [<a href="/about">more</a>]<br>
+            
+            <h2>Domus</h2>
+            <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a><br>
+            <a href="https://www.vanderbilt.edu/">Vanderbilt University</a><br>
+            Nashville, Tennessee, USA <br><br>
+            Robinson Research Building<br>
+            Office: #832 <br>
+            Laboratory: #836 <br><br>
+            Email: <a href="mailto:carlos.oliver@vanderbilt.edu">carlos.oliver@vanderbilt.edu</a><br>
+            Github: <a href="https://github.com/OliverLaboratory">@OliverLaboratory</a>
+        </div>
+    </div>
 
-	<h2> Modus vivendi</h2>
+    <hr>
 
-	Building interpretable geometric deep learning models and graph algorithms linking  3D structure and dynamics to function and back. [<a href="/about">more</a>]<br>
-		
-	<h2> Domus </h2>
-	<a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a><br>
-	<a href="https://www.vanderbilt.edu/">Vanderbilt University</a><br>
-	Nashville, Tennessee, USA <br><br>
-
-	Robinson Research Building<br>
-	Office: #832 <br>
-	Laboratory: #836 <br><br>
-
-	Email: <a href="mailto:carlos.oliver@vanderbilt.edu">carlos.oliver@vanderbilt.edu</a><br>
-        Github: <a href="https://github.com/OliverLaboratory">@OliverLaboratory</a>
-
-
-	</div>
+    <h2>Updates</h2>
+    <ul>
+        <li>21.03.24 - RNAmigos2, AI-assisted RNA small molecule discovery, published in <a href="https://www.nature.com/articles/s41467-025-57852-0">Nature Communications</a>.</li>
+        <li>20.01.25 - Lab inauguration.</li>
+    </ul>
 </div>
 
-<hr>
+<style>
+/* General styling for the home container */
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+/* Row and column layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between columns */
+}
 
-<h2> Updates </h2>	
+/* Column styling */
+.column {
+    flex: 1;
+    min-width: 300px; /* Minimum width before stacking */
+}
 
-	<ul>
-        <li> 21.03.24 - RNAmigos2, AI-assisted RNA small molecule discovery,
-        published in <a
-        href="https://www.nature.com/articles/s41467-025-57852-0">Nature
-                Communications.</a></li>
-		<li> 20.01.25 - Lab inauguration. </li>
-	</ul>
+/* Image styling */
+.home-img {
+    width: 100%; /* Full width of its container */
+    max-width: 400px; /* Cap the size */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #787878; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+}
 
+/* Headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+/* List styling */
+ul {
+    padding-left: 20px;
+    font-size: 11pt;
+}
+li {
+    margin-bottom: 10px;
+}
 
-</div>
+/* HR styling */
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
 
-<hr>
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%; /* Stack columns on mobile */
+    }
+    .home-img {
+        max-width: 300px; /* Smaller cap on mobile */
+        display: block;
+        margin: 0 auto; /* Center image */
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}
+</style>
