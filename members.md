@@ -66,7 +66,8 @@ a {
     <td><img src="/assets/me_lowlow.png" class="member-img" alt="Carlos Oliver"></td>
     <td><b>Carlos Oliver, PhD Computer Science [<a href="https://carlosoliver.co" target="_blank">homepage</a>]</b><br>
     Principal Investigator <br>
-    <i>Assistant Professor of Molecular Physiology and Biophysics, Computer Science</i> <br><br>
+    <i>Assistant Professor of Molecular Physiology and Biophysics</i><br>
+    <i>Assistant Professor of Computer Science</i> <br><br>
     I obtained a PhD in Computer Science at McGill University under the supervision of 
     Jerome Waldispuhl and William Hamilton building geometric deep learning methods for pattern mining
     and drug discovery in RNA molecules. From 2021 to 2024, worked under Karsten Borgwardt at ETH Zurich and the Max Planck institute for Biochemistry developing deep learning approaches to study structure-function relationships in proteins. In 2025 I joined Vanderbilt University as a tenure-track assistant professor in the <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a> to continue studying structure-function maps and delve into the temporal dimension of biomolecular function.
