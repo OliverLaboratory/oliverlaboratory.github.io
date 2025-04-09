@@ -62,11 +62,11 @@ b {
 
 <table class="publications-table">
   <tr>
-    <td><img src="/assets/rnaglib.png" class="pub-img" alt="RNAmigos2"></td>
+    <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNAmigos2"></td>
     <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
     Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos
     Oliver'<br>
-    <i>ICLR Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>) </td>
+    <i>ICLR 2025 Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>) </td>
   </tr>
 
   <tr>
