@@ -62,6 +62,14 @@ b {
 
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/rnaglib.png" class="pub-img" alt="RNAmigos2"></td>
+    <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
+    Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos
+    Oliver'<br>
+    <i>ICLR Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>) </td>
+  </tr>
+
+  <tr>
     <td><img src="/assets/rnamigos2.png" class="pub-img" alt="RNAmigos2"></td>
     <td><b>RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning</b><br>
     Juan G. Carvajal Patiño*, Vincent Mallet*, David Becerra, L. Fernando Niño V, Carlos Oliver', Jerome Waldispuhl'<br>
