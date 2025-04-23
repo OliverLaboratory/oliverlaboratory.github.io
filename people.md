@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Members"
+title: "People"
 permalink: /members
 nav: true
 order: 4
