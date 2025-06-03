@@ -89,6 +89,7 @@ a {
     <td><img src="/assets/luka.jpg" class="member-img" alt="Allen Wang"></td>
     <td><b>Luka Butkskhrikidze [<a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/" target="_blank">homepage</a>]</b><br>
     AI Engineer <br>
+    I am currently a Master’s student in Data Science at Vanderbilt University, where I serve as Head Teaching Assistant for both the undergraduate data science course and the MBA Business Analytics course. In the fall of 2024, I contributed as an AI Engineer to a research initiative on binary black hole periodicity detection, using stochastic modeling and large language models. In parallel, I also worked as a Machine Learning Integration Consultant at Nissan, supporting the deployment of predictive analytics in production environments. I hold a Bachelor's degree in Economics from the International School of Economics at Tbilisi State University (ISET), where I graduated with distinction, with a strong emphasis on Econometrics and Statistical Modeling.
     </td>
   </tr>
 
