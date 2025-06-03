@@ -64,7 +64,7 @@ a {
 <table class="members-table">
   <tr>
     <td><img src="/assets/me_lowlow.png" class="member-img" alt="Carlos Oliver"></td>
-    <td><b>Carlos Oliver, PhD Computer Science [<a href="https://carlosoliver.co" target="_blank">homepage</a>]</b><br>
+    <td><b>Carlos Oliver [<a href="https://carlosoliver.co" target="_blank">homepage</a>]</b><br>
     Principal Investigator <br>
     <i>Assistant Professor of Molecular Physiology and Biophysics</i><br>
     <i>Assistant Professor of Computer Science</i> <br><br>
