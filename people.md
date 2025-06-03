@@ -75,16 +75,23 @@ a {
   </tr>
   <tr>
     <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
-    <td><b>Allen Wang, MSc Computer Science [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
+    <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
     Researcher <br>
     </td>
   </tr>
  <tr>
     <td><img src="/assets/kaiwen.png" class="member-img" alt="Allen Wang"></td>
-    <td><b>Kaiwen Shi, BA Computer Science [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
+    <td><b>Kaiwen Shi [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
     Researcher <br>
     </td>
   </tr>
+ <tr>
+    <td><img src="/assets/luka.jpg" class="member-img" alt="Allen Wang"></td>
+    <td><b>Luka Butkskhrikidze [<a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/" target="_blank">homepage</a>]</b><br>
+    AI Engineer <br>
+    </td>
+  </tr>
+
 
 </table>
 
