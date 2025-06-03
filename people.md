@@ -79,6 +79,13 @@ a {
     Researcher <br>
     </td>
   </tr>
+ <tr>
+    <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
+    <td><b>Kaiwen Shi, BA Computer Science [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
+    Researcher <br>
+    </td>
+  </tr>
+
 </table>
 
 # Open Positions
