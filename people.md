@@ -77,6 +77,7 @@ a {
     <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
     <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
     Researcher <br>
+    I obtained my master’s degree in Computer Science at Vanderbilt University under the supervision of Tyler Derr, where my thesis explored data-centric machine learning for small molecule drug discovery. I am currently interested in the 3D structure and dynamics of proteins, and how these aspects govern their functions and interactions. I will continue related research at Yale University as a PhD student in Computational Biology and Bioinformatics.
     </td>
   </tr>
  <tr>
