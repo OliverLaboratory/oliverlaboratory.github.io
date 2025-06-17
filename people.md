@@ -84,6 +84,7 @@ a {
     <td><img src="/assets/kaiwen.png" class="member-img" alt="Allen Wang"></td>
     <td><b>Kaiwen Shi [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
     <i> Researcher </i> <br>
+    I am a graduate of Vanderbilt University Computer Science. I am interested in general mathematics and how it manifests in machine learning algorithms. I am also particularly interested in how machine learning and deep learning could benefit biomedical researches such as drug discovery. I have been working with Dr. Soheil Kolouri and Dr. Akram Aldroubi on Optimal Transport Theory. Recently, I joined OliverLab and started to work on Motif Mining problem.
     </td>
   </tr>
  <tr>
