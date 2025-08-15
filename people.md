@@ -73,13 +73,7 @@ a {
     and drug discovery in RNA molecules. From 2021 to 2024, worked under Karsten Borgwardt at ETH Zurich and the Max Planck institute for Biochemistry developing deep learning approaches to study structure-function relationships in proteins. In 2025 I joined Vanderbilt University as a tenure-track assistant professor in the <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a> to continue studying structure-function maps and delve into the temporal dimension of biomolecular function.
     </td>
   </tr>
-  <tr>
-    <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
-    <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
-    <i>Researcher</i> <br>
-    I obtained my master’s degree in Computer Science at Vanderbilt University under the supervision of Tyler Derr, where my thesis explored data-centric machine learning for small molecule drug discovery. I am currently interested in the 3D structure and dynamics of proteins, and how these aspects govern their functions and interactions. I will continue related research at Yale University as a PhD student in Computational Biology and Bioinformatics.
-    </td>
-  </tr>
+
  <tr>
     <td><img src="/assets/kaiwen.png" class="member-img" alt="Allen Wang"></td>
     <td><b>Kaiwen Shi [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
@@ -95,6 +89,15 @@ a {
     </td>
   </tr>
 
+
+
+  <tr>
+    <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
+    <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
+    <i>Researcher</i> <br>
+    I obtained my master’s degree in Computer Science at Vanderbilt University under the supervision of Tyler Derr, where my thesis explored data-centric machine learning for small molecule drug discovery. I am currently interested in the 3D structure and dynamics of proteins, and how these aspects govern their functions and interactions. I will continue related research at Yale University as a PhD student in Computational Biology and Bioinformatics.
+    </td>
+  </tr>
 
 </table>
 
