@@ -57,7 +57,7 @@ b {
 </style>
 </head>
 
-This is a list of papers published since starting the lab in January 2025. For a full list of my publications go <a href="carlosoliver.co/publications">here</a>.
+This is a list of papers published since starting the lab in January 2025. For a full list of my publications go <a href="https://carlosoliver.co/publications">here</a>.
 
 <h5>* = equal contribution</h5>
 <h5>' = co-corresponding</h5>
