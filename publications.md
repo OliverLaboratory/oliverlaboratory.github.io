@@ -62,6 +62,12 @@ b {
 
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/rna_rev.png" class="pub-img" alt="rev"></td>
+    <td><b>What's so hard about RNA-targeting drug discovery?</b><br>
+    Carlos Oliver, Jerome Waldispuhl <br>
+    <i>Nature Computational Science</i> (<a href="https://www.nature.com/articles/s43588-025-00853-2">article</a>) </td>
+  </tr>
+  <tr>
     <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNAmigos2"></td>
     <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
     Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos
