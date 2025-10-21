@@ -64,6 +64,13 @@ This is a list of papers published since starting the lab in January 2025. For a
 
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/blobs.png" class="pub-img" alt="rev"></td>
+    <td><b>BioBlobs: Differentiable Graph Partitioning for Protein
+    Representation Learning</b><br>
+    Xin (Allen) Wang, Carlos Oliver<br>
+    <i>arXiv 2025 </i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>) </td>
+  </tr>
+  <tr>
     <td><img src="/assets/rna_rev.png" class="pub-img" alt="rev"></td>
     <td><b>What's so hard about RNA-targeting drug discovery?</b><br>
     Carlos Oliver, Jerome Waldispuhl <br>
