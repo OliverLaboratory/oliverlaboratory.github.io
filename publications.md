@@ -90,4 +90,10 @@ This is a list of papers published since starting the lab in January 2025. For a
     Juan G. Carvajal Patiño*, Vincent Mallet*, David Becerra, L. Fernando Niño V, Carlos Oliver', Jerome Waldispuhl'<br>
     <i>Nature Communications 2025</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)</td>
   </tr>
+  <tr>
+    <td><img src="/assets/rna_drug_design_fig1a.png" class="pub-img" alt="RNA drug design"></td>
+    <td><b>Machine learning for RNA-targeting drug design</b><br>
+    Wissam Karroucha, Carlos Oliver, Veronique Stoven, Vincent Mallet<br>
+    <i>arXiv preprint arXiv:2512.15645, 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
+  </tr>
 </table>
