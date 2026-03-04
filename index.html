@@ -3,151 +3,329 @@ layout: default
 ---
 
 <div class="home">
-    <div class="row">
-        <div class="column">
-            <img src="/assets/mirrorlogo.png" class="home-img" alt="Oliver Laboratory Image">
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-logo">
+            <img src="/assets/mirrorlogo.png" class="home-img" alt="Oliver Laboratory">
         </div>
-        <div class="column">
-
-            <br><br>
-            
-            <div style="border: 1px solid black; padding: 10px; width: fit-content; margin: 0px;">
-
-            Designing algorithms <br>
-            to decode <br>
-            the language <br>
-            of biomolecular structure.
+        <div class="hero-text">
+            <h1 class="tagline">
+                Designing algorithms to decode the language of biomolecular structure.
+            </h1>
+            <p class="hero-sub">
+                We build <strong>structure-aware machine learning methods</strong> that process growing datasets
+                of biological structures to uncover the geometric patterns driving function in proteins and RNA,
+                from static structures to conformational dynamics.
+            </p>
+            <div class="hero-affiliation">
+                <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a>
+                &middot;
+                <a href="https://www.vanderbilt.edu/">Vanderbilt University</a>
             </div>
-           
-            
-            <h3>Location</h3>
-            <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a><br>
-            <a href="https://www.vanderbilt.edu/">Vanderbilt University</a><br>
-            Nashville, Tennessee, USA <br><br>
-            Robinson Research Building<br>
-            Office: #832 <br>
-            Laboratory: #836 <br><br>
-            Email: <a href="mailto:carlos.oliver@vanderbilt.edu">carlos.oliver@vanderbilt.edu</a><br>
-            Github: <a href="https://github.com/OliverLaboratory">@OliverLaboratory</a>
         </div>
     </div>
 
-    <hr>
+    <!-- Research Pillars -->
+    <section class="research-section">
+        <h2 class="section-title">Research</h2>
+        <div class="research-grid">
 
-    Check out our AI-generated podcast that helps you stay on top of the latest
-    papers in AI & computational biology!
+            <a href="/about" class="research-card">
+                <h3>Protein Structure &amp; Dynamics</h3>
+                <p>
+                    Representing and learning from protein conformational dynamics
+                    and 3D structure. Scalable tools for impactful biological prediction tasks.
+                </p>
+            </a>
 
-    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/1rKazxSnk5ON9DxvhXsRdB?utm_source=generator" width="70%" height="252" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <a href="/about" class="research-card">
+                <h3>RNA 3D &amp; Drug Discovery</h3>
+                <p>
+                    Representation learning on RNA 3D structures for applications
+                    in small-molecule drug discovery and structural motif mining.
+                </p>
+            </a>
 
-    <hr>
+            <a href="/about" class="research-card">
+                <h3>Graph Pattern Mining</h3>
+                <p>
+                    Approximate network pattern discovery in noisy biological graphs,
+                    with applications to pre-training and classification.
+                </p>
+            </a>
 
-    <h2>Updates</h2>
-    <ul>
-        <li> 10.21.25 - Paper on learnable protein structure partitioning accepted at <a href="https://www.mlsb.io/">MLSB 2025 Workshop!</a>
-            Have a look at the <a href="https://arxiv.org/abs/2510.01632">preprint</a>.
-        </li>
+        </div>
+    </section>
 
+    <!-- Contact -->
+    <section class="contact-section">
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h4>Location</h4>
+                Robinson Research Building<br>
+                Office #832 &middot; Lab #836<br>
+                Nashville, TN
+            </div>
+            <div class="contact-item">
+                <h4>Contact</h4>
+                <a href="mailto:carlos.oliver@vanderbilt.edu">carlos.oliver@vanderbilt.edu</a><br>
+                <a href="https://github.com/OliverLaboratory">GitHub: @OliverLaboratory</a>
+            </div>
+        </div>
+    </section>
 
-    <li> 07.01.25 - Welcome to the lab <a
-                                                   href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/">
-                                                   Luka Butkskhrikidze </a>!
-                                               Luka will be developing software tools
-                                               for struct-Bio + AI model
-                                               development.</li>
+    <!-- Updates -->
+    <section class="updates-section">
+        <h2 class="section-title">Latest Updates</h2>
+        <ul class="updates-list">
+            <li>
+                <span class="update-date">Oct 2025</span>
+                Paper on learnable protein structure partitioning accepted at
+                <a href="https://www.mlsb.io/">MLSB 2025 Workshop</a>.
+                <a href="https://arxiv.org/abs/2510.01632">[preprint]</a>
+            </li>
+            <li>
+                <span class="update-date">Aug 2025</span>
+                Deep learning tasks on RNA 3D with rnaglib accepted at
+                <a href="https://ai4na-workshop.github.io/">ICLR AI4NA workshop</a>.
+                <a href="https://arxiv.org/abs/2503.21681">[arXiv]</a>
+            </li>
+            <li>
+                <span class="update-date">Jul 2025</span>
+                Welcome <a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/">Luka Butskhrikidze</a> &mdash;
+                developing software tools for struct-Bio + AI model development.
+            </li>
+            <li>
+                <span class="update-date">May 2025</span>
+                Welcome <a href="https://kwfredshi.github.io/">Kaiwen Shi</a> &mdash;
+                working on diffusion models and protein mining.
+            </li>
+            <li>
+                <span class="update-date">May 2025</span>
+                Welcome <a href="https://xwang112358.github.io/">Allen Wang</a> &mdash;
+                working on discrete representations of protein structures.
+            </li>
+            <li>
+                <span class="update-date">Mar 2025</span>
+                RNAmigos2 published in
+                <a href="https://www.nature.com/articles/s41467-025-57852-0">Nature Communications</a>.
+            </li>
+            <li>
+                <span class="update-date">Jan 2025</span>
+                Lab inauguration.
+            </li>
+        </ul>
+    </section>
 
-
-        <li> 05.18.25 - Welcome to the lab <a
-                                                   href="https://kwfredshi.github.io/">Kaiwen
-                                                   Shi</a>! Kaiwen will be
-                                               working on diffusion models and
-        protein mining.</li>
-
-
-        <li>08.04.25 - Deep learning tasks on RNA 3D with rnaglib accepted at
-            <a href="https://ai4na-workshop.github.io/">ICLR AI4NA
-               workshop</a>. <a
-        href="https://arxiv.org/abs/2503.21681">[arXiv]</a>.</li>
-        <li> 05.04.25 - Welcome to the lab <a
-                                                   href="https://xwang112358.github.io/">Allen
-                                                   Wang</a>! Allen will be working on discrete
-            representations of protein structures. </li>
-        <li>21.03.24 - RNAmigos2, AI-assisted RNA small molecule discovery, published in <a href="https://www.nature.com/articles/s41467-025-57852-0">Nature Communications</a>.</li>
-        <li>20.01.25 - Lab inauguration.</li>
-    </ul>
 </div>
 
 <style>
-/* General styling for the home container */
+/* ── Override latex.css body width for landing page ── */
+body {
+    max-width: 960px;
+}
+
+/* ── Hero ──────────────────────────────────────────── */
 .home {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Row and column layout */
-.row {
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Space between columns */
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0 20px;
 }
 
-/* Column styling */
-.column {
-    flex: 1;
-    min-width: 300px; /* Minimum width before stacking */
+.hero-logo {
+    flex-shrink: 0;
 }
 
-/* Image styling */
 .home-img {
-    width: 80%; /* Full width of its container */
-    max-width: 400px; /* Cap the size */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto;
+    width: 220px;
+    height: auto;
 }
 
-/* Headings */
-h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
+.tagline {
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+    color: hsl(0, 5%, 10%);
+    text-align: left;
 }
-h2 {
+
+.hero-sub {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: hsl(0, 5%, 25%);
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.hero-affiliation {
+    font-size: 0.95em;
+    color: hsl(0, 5%, 40%);
+}
+
+.hero-affiliation a,
+.hero-affiliation a:visited {
+    color: #a00;
+}
+
+/* ── Section Titles ────────────────────────────────── */
+.section-title {
     font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid hsl(0, 0%, 85%);
+    color: hsl(0, 5%, 10%);
+    text-align: left;
 }
 
-/* List styling */
-ul {
-    padding-left: 20px;
-    font-size: 11pt;
-}
-li {
-    margin-bottom: 10px;
+/* ── Research Cards ────────────────────────────────── */
+.research-section {
+    padding: 30px 0;
 }
 
-/* HR styling */
-hr {
-    margin: 30px 0;
-    border: 0;
-    border-top: 1px solid #ccc;
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-/* Responsive design for mobile */
-@media (max-width: 600px) {
-    .column {
-        flex: 100%; /* Stack columns on mobile */
+.research-card {
+    display: block;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 4px;
+    padding: 24px 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.research-card:visited {
+    color: inherit;
+}
+
+.research-card:hover {
+    border-color: #a00;
+    box-shadow: 0 2px 12px rgba(170, 0, 0, 0.08);
+    text-decoration: none;
+}
+
+.research-card h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: hsl(0, 5%, 10%);
+    line-height: 1.4;
+}
+
+.research-card p {
+    font-size: 0.93em;
+    line-height: 1.6;
+    color: hsl(0, 5%, 30%);
+    margin: 0;
+    text-align: left;
+}
+
+/* ── Contact ───────────────────────────────────────── */
+.contact-section {
+    padding: 24px 0;
+    border-top: 1px solid hsl(0, 0%, 85%);
+}
+
+.contact-grid {
+    display: flex;
+    gap: 60px;
+}
+
+.contact-item h4 {
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.contact-item {
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: hsl(0, 5%, 20%);
+}
+
+/* ── Updates ───────────────────────────────────────── */
+.updates-section {
+    padding: 30px 0 10px;
+}
+
+.updates-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.updates-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: hsl(0, 5%, 20%);
+}
+
+.updates-list li:last-child {
+    border-bottom: none;
+}
+
+.update-date {
+    display: inline-block;
+    width: 80px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: hsl(0, 0%, 50%);
+}
+
+/* ── Responsive ────────────────────────────────────── */
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
+
+    .hero-sub,
+    .tagline {
+        text-align: center;
+    }
+
     .home-img {
-        max-width: 200px; /* Smaller cap on mobile */
-        height: auto;
+        width: 160px;
+    }
+
+    .tagline {
+        font-size: 1.3em;
+    }
+
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .update-date {
         display: block;
-        margin: 0 auto; /* Center image */
-    }
-    h1 {
-        font-size: 1.5em;
-    }
-    h2 {
-        font-size: 1.2em;
+        margin-bottom: 2px;
     }
 }
 </style>

@@ -17,11 +17,20 @@ order: 4
 
 /* Image styling */
 .member-img {
-    width: 120px; /* Fixed width for consistency */
-    height: 120px; /* Fixed height for consistency */
+    width: 120px !important; /* Fixed width for consistency */
+    min-width: 120px;
+    height: 120px !important; /* Fixed height for consistency */
     object-fit: cover; /* Ensures images scale proportionally */
     border: 1px solid #787878; /* Subtle border */
     border-radius: 5px; /* Rounded corners */
+}
+
+/* Prevent latex.css table borders on this table */
+.members-table,
+.members-table tr,
+.members-table td,
+.members-table th {
+    border: none !important;
 }
 
 /* Table cell styling */
