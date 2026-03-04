@@ -10,7 +10,7 @@ title: Oliver Laboratory
 email: carlos.oliver@vanderbilt.edu
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://oliverlaboratory.github.io" # the base hostname & protocol for your site
+url: "https://oliverlaboratory.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
