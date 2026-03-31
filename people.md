@@ -76,38 +76,42 @@ a {
     <td><b>Carlos Oliver [<a href="https://carlosoliver.co" target="_blank">homepage</a>]</b><br>
     Principal Investigator <br>
     <i>Assistant Professor of Molecular Physiology and Biophysics</i><br>
-    <i>Assistant Professor of Computer Science</i> <br><br>
-    I obtained a PhD in Computer Science at McGill University under the supervision of 
-    Jerome Waldispuhl and William Hamilton building geometric deep learning methods for pattern mining
-    and drug discovery in RNA molecules. From 2021 to 2024, worked under Karsten Borgwardt at ETH Zurich and the Max Planck institute for Biochemistry developing deep learning approaches to study structure-function relationships in proteins. In 2025 I joined Vanderbilt University as a tenure-track assistant professor in the <a href="https://www.vanderbilt.edu/ai-proteindynamics/">Center for AI in Protein Dynamics</a> to continue studying structure-function maps and delve into the temporal dimension of biomolecular function.
+    <i>Assistant Professor of Computer Science</i>
     </td>
   </tr>
 
  <tr>
-    <td><img src="/assets/kaiwen.png" class="member-img" alt="Allen Wang"></td>
+    <td><img src="/assets/kaiwen.png" class="member-img" alt="Kaiwen Shi"></td>
     <td><b>Kaiwen Shi [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
-    <i> PhD Student </i> <br>
-    I am a graduate of Vanderbilt University Computer Science. I am interested in general mathematics and how it manifests in machine learning algorithms. I am also particularly interested in how machine learning and deep learning could benefit biomedical researches such as drug discovery. I have been working with Dr. Soheil Kolouri and Dr. Akram Aldroubi on Optimal Transport Theory. Recently, I joined OliverLab and started to work on Motif Mining problem.
+    <i>PhD Student</i>
     </td>
   </tr>
+
  <tr>
-    <td><img src="/assets/luka.jpg" class="member-img" alt="Allen Wang"></td>
+    <td><img src="/assets/luka.jpg" class="member-img" alt="Luka Butkskhrikidze"></td>
     <td><b>Luka Butkskhrikidze [<a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/" target="_blank">homepage</a>]</b><br>
-    <i>AI Engineer </i> <br>
-    I am currently a Master’s student in Data Science at Vanderbilt University, where I serve as Head Teaching Assistant for both the undergraduate data science course and the MBA Business Analytics course. In the fall of 2024, I contributed as an AI Engineer to a research initiative on binary black hole periodicity detection, using stochastic modeling and large language models. In parallel, I also worked as a Machine Learning Integration Consultant at Nissan, supporting the deployment of predictive analytics in production environments. I hold a Bachelor's degree in Economics from the International School of Economics at Tbilisi State University (ISET), where I graduated with distinction, with a strong emphasis on Econometrics and Statistical Modeling.
+    <i>AI Engineer</i>
     </td>
   </tr>
 
+  <tr>
+    <td></td>
+    <td><b>Alex Lin</b><br>
+    <i>Master’s Thesis Student</i>
+    </td>
+  </tr>
 
+</table>
 
+# Alumni
+
+<table class="members-table">
   <tr>
     <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
     <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
-    <i>Researcher</i> <br>
-    I obtained my master’s degree in Computer Science at Vanderbilt University under the supervision of Tyler Derr, where my thesis explored data-centric machine learning for small molecule drug discovery. I am currently interested in the 3D structure and dynamics of proteins, and how these aspects govern their functions and interactions. I will continue related research at Yale University as a PhD student in Computational Biology and Bioinformatics.
+    <i>Graduate Student at Yale University</i>
     </td>
   </tr>
-
 </table>
 
 # Open Positions
