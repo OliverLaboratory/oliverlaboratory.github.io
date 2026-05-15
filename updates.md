@@ -9,6 +9,7 @@ nav: false
 
 
 <ul>
+<li> 26.05.15 - New preprint: ENSEMBITS: an alphabet of protein conformational ensembles <a href="https://arxiv.org/abs/2605.13789">[arXiv]</a> </li> 
 <li> 23.11.23 - Preprint on RNA drug discovery <a href="https://www.biorxiv.org/contet/10.1101/2023.11.23.568394v1.full.pdf+html">bioRxiv</a> </li> 
 <li> Paper on Multimodal learning for antimicrobial bacteria resistance accepted at Bioinformatics! <a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">[paper]</a> </li> 
 		<li> <a href="https://proteinshake.ai">ProteinShake</a> accepted at NeurIPS 2023 Datasets and Benchmarks! Preprint coming soon.. </li> 
