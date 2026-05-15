@@ -70,11 +70,16 @@ This is a list of papers published since starting the lab in January 2025. For a
     <i>arXiv preprint arXiv:2512.15645, 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
   </tr>
   <tr>
-    <td><img src="/assets/blobs.png" class="pub-img" alt="rev"></td>
-    <td><b>BioBlobs: Differentiable Graph Partitioning for Protein
-    Representation Learning</b><br>
-    Xin (Allen) Wang, Carlos Oliver<br>
-    <i>arXiv 2025 </i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>) </td>
+    <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
+    <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
+    Kaiwen Shi, Carlos Oliver<br>
+    <i>arXiv preprint arXiv:2605.13789, 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)</td>
+  </tr>
+  <tr>
+    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
+    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
+    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
+    <i>Workshop on Machine Learning for Structural Biology, 2025 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>) </td>
   </tr>
   <tr>
     <td><img src="/assets/rna_rev.png" class="pub-img" alt="rev"></td>

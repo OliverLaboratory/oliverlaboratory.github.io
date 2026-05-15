@@ -94,13 +94,6 @@ a {
     </td>
   </tr>
 
-  <tr>
-    <td></td>
-    <td><b>Alex Lin</b><br>
-    <i>Master’s Thesis Student</i>
-    </td>
-  </tr>
-
 </table>
 
 # Alumni
@@ -110,6 +103,12 @@ a {
     <td><img src="/assets/allen.png" class="member-img" alt="Allen Wang"></td>
     <td><b>Allen Wang [<a href="https://xwang112358.github.io/" target="_blank">homepage</a>]</b><br>
     <i>Graduate Student at Yale University</i>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>Alex Lin</b><br>
+    <i>Graduate Student at MIT</i>
     </td>
   </tr>
 </table>
