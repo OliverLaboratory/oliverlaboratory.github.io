@@ -64,10 +64,16 @@ This is a list of papers published since starting the lab in January 2025. For a
 
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/pst.png" class="pub-img" alt="Endowing protein language models"></td>
+    <td><b>Endowing protein language models with structural knowledge</b><br>
+    Philip Hartout*, Dexiong Chen*, Paolo Pellizzoni, Carlos Oliver, Karsten Borgwardt<br>
+    <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/rna_drug_design_fig1a.png" class="pub-img" alt="RNA drug design"></td>
     <td><b>Machine learning for RNA-targeting drug design</b><br>
     Wissam Karroucha, Carlos Oliver, Veronique Stoven, Vincent Mallet<br>
-    <i>arXiv preprint arXiv:2512.15645, 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
+    <i>Journal of Chemical Information and Modeling (in revision), 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
