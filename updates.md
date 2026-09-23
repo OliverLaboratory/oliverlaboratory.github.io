@@ -9,6 +9,7 @@ nav: false
 
 
 <ul>
+<li> 26.09.23 - Welcome to Jason Wang, MD-PhD student (MSTP), who joins the lab to work on deep learning for protein structure and dynamics. <a href="/members">[people]</a> </li> 
 <li> 26.07.21 - Machine learning for RNA-targeting drug design published in the Journal of Chemical Information and Modeling <a href="https://arxiv.org/abs/2512.15645">[preprint]</a> </li> 
 <li> 26.07.10 - New preprint: Adaptive 2.5D base-pairing subgraph search detects RNA small-molecule binding sites (Ribo-LENS) <a href="https://www.biorxiv.org/content/10.64898/2026.07.07.737024v1">[bioRxiv]</a> </li> 
 <li> 26.05.15 - New preprint: ENSEMBITS: an alphabet of protein conformational ensembles <a href="https://arxiv.org/abs/2605.13789">[arXiv]</a> </li> 

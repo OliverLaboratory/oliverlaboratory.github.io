@@ -88,6 +88,14 @@ a {
   </tr>
 
  <tr>
+    <td></td>
+    <td><b>Jason Wang</b><br>
+    <i>MD-PhD Student (Medical Scientist Training Program)</i><br>
+    I am a student in the Medical Scientist Training Program (MSTP) with a background in biophysics interested in protein structure and dynamics. I want to understand how interactions at the atomic level lead to downstream structural and biological changes. I want to leverage deep learning tools to build representations of these interactions for applications including molecular transport, antibody design, and drug development. Clinically, I am interested in psychiatry; I hope to use insights in structural biology to bring greater understanding and formulate novel treatments for debilitating psychiatric disorders.
+    </td>
+  </tr>
+
+ <tr>
     <td><img src="/assets/luka.jpg" class="member-img" alt="Luka Butkskhrikidze"></td>
     <td><b>Luka Butkskhrikidze [<a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/" target="_blank">homepage</a>]</b><br>
     <i>AI Engineer</i>
