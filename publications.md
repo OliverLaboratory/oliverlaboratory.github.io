@@ -166,6 +166,39 @@ This is a list of papers published since starting the lab in January 2025. For a
   </tr>
 </table>
 
+<h3>Conference</h3>
+<table class="publications-table">
+  <tr data-topics="protein-dyn">
+    <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
+    <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
+    Kaiwen Shi, Carlos Oliver<br>
+    <i>NeurIPS 2026 (Accepted)</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-dyn">Protein Dynamics</span>
+    </div></td>
+  </tr>
+  <tr data-topics="protein-sf motif">
+    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
+    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
+    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
+    <i>NeurIPS 2026 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
+  </tr>
+  <tr data-topics="protein-dyn benchmarks">
+    <td></td>
+    <td><b>Benchmarking sequence-to-ensemble predictors on UNICORNEdb, a UniProt-grouped database of PDB-derived conformational ensembles</b><br>
+    William F. Vanderbilt-Fried, Luka Butskhrikidze, Benjamin P. Brown, Hassane S. Mchaourab, Carlos Oliver<br>
+    <i>NeurIPS 2026 Datasets and Evaluations Track (Accepted)</i> (preprint TBA)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-dyn">Protein Dynamics</span>
+      <span class="topic-pill" data-topic="benchmarks">Benchmarks</span>
+    </div></td>
+  </tr>
+</table>
+
 <h3>Workshop</h3>
 <table class="publications-table">
   <tr data-topics="protein-sf motif">
@@ -201,25 +234,6 @@ This is a list of papers published since starting the lab in January 2025. For a
       <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
       <span class="topic-pill" data-topic="drug">Drug Discovery</span>
       <span class="topic-pill" data-topic="graphs">Graphs</span>
-    </div></td>
-  </tr>
-  <tr data-topics="protein-dyn">
-    <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
-    <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
-    Kaiwen Shi, Carlos Oliver<br>
-    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)
-    <div class="topic-pills">
-      <span class="topic-pill" data-topic="protein-dyn">Protein Dynamics</span>
-    </div></td>
-  </tr>
-  <tr data-topics="protein-sf motif">
-    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
-    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
-    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
-    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)
-    <div class="topic-pills">
-      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
-      <span class="topic-pill" data-topic="motif">Motif Mining</span>
     </div></td>
   </tr>
 </table>
