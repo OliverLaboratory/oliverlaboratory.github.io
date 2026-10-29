@@ -83,7 +83,7 @@ a {
  <tr>
     <td><img src="/assets/kaiwen.png" class="member-img" alt="Kaiwen Shi"></td>
     <td><b>Kaiwen Shi [<a href="https://kwfredshi.github.io/" target="_blank">homepage</a>]</b><br>
-    <i>PhD Student</i>
+    <i>PhD Student in Computer Science</i>
     </td>
   </tr>
 
@@ -98,6 +98,13 @@ a {
     <td><img src="/assets/luka.jpg" class="member-img" alt="Luka Butkskhrikidze"></td>
     <td><b>Luka Butkskhrikidze [<a href="https://www.linkedin.com/in/luka-butskhrikidze-4a6bb4200/" target="_blank">homepage</a>]</b><br>
     <i>AI Engineer</i>
+    </td>
+  </tr>
+
+ <tr>
+    <td><img src="/assets/angela.jpg" class="member-img" alt="Angela Milkowski"></td>
+    <td><b>Angela Milkowski</b><br>
+    <i>Rotation Student</i>
     </td>
   </tr>
 
