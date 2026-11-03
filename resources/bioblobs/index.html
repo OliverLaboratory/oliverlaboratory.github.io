@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>BioBlobs · M-CSA enzyme explorer</title>
+  <meta name="description" content="Blobs learned by BioBlobs on M-CSA enzymes, shown next to their annotated catalytic residues.">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/3Dmol-min.js"></script>
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">
+      <h1>BioBlobs: functional substructures in enzymes</h1>
+      <p>A BioBlobs model trained only on enzyme class labels splits each enzyme into a few spatially local blobs. Compare them with the catalytic residues annotated in the Mechanism and Catalytic Site Atlas (M-CSA).</p>
+    </div>
+    <nav class="site-links" aria-label="Project links">
+      <a href="https://arxiv.org/abs/2510.01632">Paper</a>
+      <a href="https://github.com/OliverLaboratory/BioBlobs">Code</a>
+    </nav>
+  </div>
+</header>
+<div class="workspace">
+  <aside aria-label="Enzyme browser">
+    <div class="browser-controls">
+      <label for="search">Find an enzyme</label>
+      <input id="search" type="search" placeholder="PDB ID, EC number or enzyme name">
+      <label for="sort">Sort by</label>
+      <select id="sort">
+        <option value="auprc_enrichment" selected>AUPRC enrichment, highest first</option>
+        <option value="auroc">AUROC, highest first</option>
+        <option value="auprc">AUPRC, highest first</option>
+        <option value="id">PDB ID</option>
+      </select>
+      <label class="check" for="heldout" title="No training protein shares at least 30% sequence identity with this enzyme."><input id="heldout" type="checkbox"> Held out from training only</label>
+      <p id="count" class="muted" aria-live="polite">Loading enzymes…</p>
+    </div>
+    <nav id="protein-list" aria-label="Enzymes"></nav>
+  </aside>
+  <main>
+    <section class="protein-header" aria-labelledby="protein-title">
+      <div class="protein-heading">
+        <h2 id="protein-title">Loading…</h2>
+        <p id="protein-description" class="muted"></p>
+        <span id="heldout-badge" class="tag" title="No training protein shares at least 30% sequence identity with this enzyme." hidden>Held out from training</span>
+      </div>
+      <div class="metrics" id="metrics"></div>
+    </section>
+    <p id="status" role="status" aria-live="polite"></p>
+    <section class="controls" aria-label="Display controls">
+      <div>
+        <label for="mode">Color by</label>
+        <select id="mode">
+          <option value="identity">Blobs</option>
+          <option value="overlap">Catalytic overlap</option>
+          <option value="localization">Residue score</option>
+        </select>
+      </div>
+      <div>
+        <label for="topk">Top <output id="topk-value" for="topk">8</output> blobs by attention</label>
+        <input id="topk" type="range" min="1" max="8" value="8">
+      </div>
+      <div>
+        <label for="blob">Show blobs</label>
+        <select id="blob"><option value="topk">Top blobs by attention</option></select>
+      </div>
+      <div class="checkbox">
+        <label class="check" for="annotations"><input id="annotations" type="checkbox" checked> Catalytic residues</label>
+        <button id="reset" type="button">Reset view</button>
+      </div>
+    </section>
+    <section class="structure-panel" aria-label="3D structure">
+      <div id="viewer" aria-label="Interactive 3D structure. Drag to rotate, scroll to zoom."></div>
+      <div id="structure-error" role="alert" hidden></div>
+      <div class="structure-help">Drag to rotate · Scroll to zoom · Click a residue to focus</div>
+    </section>
+    <div class="legend" id="legend"></div>
+    <p class="reading-note" id="reading-note"></p>
+    <section class="sequence-panel" aria-labelledby="sequence-heading">
+      <div class="sequence-heading"><h3 id="sequence-heading">Sequence</h3><span id="coverage"></span></div>
+      <p class="muted">Residue numbers follow the PDB file. Underlined residues are M-CSA catalytic residues. Hover for details, click to locate in 3D.</p>
+      <div id="sequence" aria-label="Protein sequence"></div>
+      <p id="residue-detail" aria-live="polite">Select a residue to see its score and blobs.</p>
+    </section>
+    <footer>
+      <p>Blobs are learned from enzyme class labels alone. M-CSA annotations are not used in training, and overlap with them does not prove that a blob is a functional unit.</p>
+      <p class="credits">Catalytic residues from <a href="https://www.ebi.ac.uk/thornton-srv/m-csa/">M-CSA</a> (Ribeiro et al., Nucleic Acids Research, 2018), CC BY 4.0. Structures from the <a href="https://www.rcsb.org/">Protein Data Bank</a>. 3D view by <a href="https://3dmol.csb.pitt.edu/">3Dmol.js</a>.</p>
+    </footer>
+  </main>
+</div>
+</body>
+</html>
