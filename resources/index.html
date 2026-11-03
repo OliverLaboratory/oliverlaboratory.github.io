@@ -19,21 +19,26 @@ order: 3.5
   border: 1px solid #d0d0d0;
   border-radius: 8px;
   overflow: hidden;
-  color: inherit;
-  text-decoration: none;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow 0.15s ease;
 }
 .tool-card:hover {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
-  text-decoration: none;
 }
-.tool-card img {
+.tool-card .tool-thumb {
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+}
+.tool-card .tool-thumb img {
+  display: block;
   width: 100%;
   height: 170px;
   object-fit: cover;
   object-position: top;
-  border-bottom: 1px solid #e0e0e0;
+}
+.tool-card .tool-thumb img.contain {
+  object-fit: contain;
+  object-position: center;
 }
 .tool-card .tool-body {
   padding: 14px 16px 16px;
@@ -45,6 +50,13 @@ order: 3.5
   margin: 0 0 6px;
   font-size: 16pt;
 }
+.tool-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.tool-card h3 a:hover {
+  text-decoration: underline;
+}
 .tool-card p {
   margin: 0 0 12px;
   font-size: 11pt;
@@ -55,54 +67,95 @@ order: 3.5
   color: #787878;
   margin-bottom: 12px;
 }
-.tool-card .tool-button {
+.tool-card .tool-links {
   margin-top: auto;
-  align-self: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tool-card .tool-links a {
   padding: 6px 14px;
   border-radius: 5px;
+  border: 1px solid #2a7ae2;
+  font-size: 11pt;
+  text-decoration: none;
+}
+.tool-card .tool-links a.primary {
   background: #2a7ae2;
   color: #fff;
-  font-size: 11pt;
+}
+.tool-card .tool-links a:not(.primary) {
+  color: #2a7ae2;
+  background: #fff;
+}
+.tool-card .tool-links a:hover {
+  filter: brightness(0.92);
 }
 </style>
 
 <p>Interactive tools and data from our papers.</p>
 
 <div class="tool-grid">
-  <a class="tool-card" href="{{ site.baseurl }}/resources/bioblobs/">
-    <img src="{{ site.baseurl }}/assets/bioblobs_mcsa.png" alt="BioBlobs blobs next to M-CSA catalytic residues">
+
+  <div class="tool-card">
+    <a class="tool-thumb" href="{{ site.baseurl }}/resources/bioblobs/">
+      <img src="{{ site.baseurl }}/assets/bioblobs_mcsa.png" alt="BioBlobs blobs next to M-CSA catalytic residues">
+    </a>
     <div class="tool-body">
-      <h3>BioBlobs enzyme explorer</h3>
+      <h3><a href="{{ site.baseurl }}/resources/bioblobs/">BioBlobs enzyme explorer</a></h3>
       <div class="tool-meta">Wang, Shi &amp; Oliver · NeurIPS 2026</div>
       <p>BioBlobs splits a protein into a few spatially local groups of residues, called blobs, and learns which ones matter for its function. Browse the blobs it found on 883 enzymes from the Mechanism and Catalytic Site Atlas (M-CSA) in 3D, next to their annotated catalytic residues.</p>
-      <span class="tool-button">Open the explorer →</span>
+      <div class="tool-links">
+        <a class="primary" href="{{ site.baseurl }}/resources/bioblobs/">Open the explorer →</a>
+        <a href="https://arxiv.org/abs/2510.01632">Paper</a>
+        <a href="https://github.com/OliverLaboratory/BioBlobs">GitHub</a>
+      </div>
     </div>
-  </a>
-  <a class="tool-card" href="https://unicornedb.org">
-    <img src="{{ site.baseurl }}/assets/unicorne_home.png" alt="UNICORNE database home page" style="object-position: center;">
+  </div>
+
+  <div class="tool-card">
+    <a class="tool-thumb" href="https://unicornedb.org">
+      <img class="contain" src="{{ site.baseurl }}/assets/unicorne_home.png" alt="UNICORNE database home page" style="background: #0a0e1a;">
+    </a>
     <div class="tool-body">
-      <h3>UNICORNE</h3>
-      <div class="tool-meta">Vanderbilt-Fried et al. · NeurIPS 2026</div>
+      <h3><a href="https://unicornedb.org">UNICORNE</a></h3>
+      <div class="tool-meta">Vanderbilt-Fried, Butskhrikidze, Brown, Mchaourab &amp; Oliver · NeurIPS 2026</div>
       <p>A database of conformational ensembles built from the PDB and grouped by UniProt entry: more than 940,000 structures across 54,000 proteins. Watch each protein move with normal-mode animations and superposed conformations, browse by ECOD, CATH or InterPro fold, and compare sequence-to-ensemble predictors on the UNICORNE-BENCH leaderboard.</p>
-      <span class="tool-button">Open the database →</span>
+      <div class="tool-links">
+        <a class="primary" href="https://unicornedb.org">Open the database →</a>
+      </div>
     </div>
-  </a>
-  <a class="tool-card" href="https://github.com/OliverLaboratory/Ensembits_release">
-    <img src="{{ site.baseurl }}/assets/ensembits_repo.png" alt="Ensembits code repository" style="object-fit: contain; background: #fff;">
+  </div>
+
+  <div class="tool-card">
+    <a class="tool-thumb" href="https://github.com/OliverLaboratory/Ensembits_release">
+      <img class="contain" src="{{ site.baseurl }}/assets/ensembits_repo.png" alt="Ensembits code repository">
+    </a>
     <div class="tool-body">
-      <h3>Ensembits</h3>
-      <div class="tool-meta">NeurIPS 2026 · Code and checkpoint</div>
+      <h3><a href="https://github.com/OliverLaboratory/Ensembits_release">Ensembits</a></h3>
+      <div class="tool-meta">Shi &amp; Oliver · NeurIPS 2026</div>
       <p>A learned tokenizer for protein conformational ensembles. Ensembits turns an ensemble of backbone conformations into one discrete token per residue that captures how much and how that site moves, and decodes the token back to backbone frames. The release includes the trained model, a script to tokenize your own ensembles, and the downstream benchmarks from the paper.</p>
-      <span class="tool-button">View the code →</span>
+      <div class="tool-links">
+        <a class="primary" href="https://github.com/OliverLaboratory/Ensembits_release">GitHub →</a>
+        <a href="https://arxiv.org/abs/2605.13789">Paper</a>
+      </div>
     </div>
-  </a>
-  <a class="tool-card" href="https://rnaglib.org/">
-    <img src="{{ site.baseurl }}/assets/rnaglib_tasks.png" alt="RNAglib benchmark tasks" style="object-fit: contain; background: #fff;">
+  </div>
+
+  <div class="tool-card">
+    <a class="tool-thumb" href="https://rnaglib.org/">
+      <img class="contain" src="{{ site.baseurl }}/assets/rnaglib_tasks.png" alt="RNAglib benchmark tasks">
+    </a>
     <div class="tool-body">
-      <h3>RNAglib</h3>
+      <h3><a href="https://rnaglib.org/">RNAglib</a></h3>
       <div class="tool-meta">Mallet, Oliver et al. · Bioinformatics 2022</div>
       <p>A Python package for RNA 3D structures. It gives quick access to every available RNA 3D structure with base pair, binding and modification annotations, represents RNAs as 2.5D graphs, and provides ready-made machine learning benchmarks on seven structure-function tasks.</p>
-      <span class="tool-button">Open the docs →</span>
+      <div class="tool-links">
+        <a class="primary" href="https://rnaglib.org/">Open the docs →</a>
+        <a href="https://doi.org/10.1093/bioinformatics/btab844">Paper</a>
+        <a href="https://github.com/cgoliver/rnaglib">GitHub</a>
+      </div>
     </div>
-  </a>
+  </div>
+
 </div>
