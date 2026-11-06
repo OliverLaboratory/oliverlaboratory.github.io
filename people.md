@@ -108,6 +108,13 @@ a {
     </td>
   </tr>
 
+ <tr>
+    <td><img src="/assets/aoyang.jpg" class="member-img" alt="Aoyang (Roland) Liu"></td>
+    <td><b>Aoyang (Roland) Liu [<a href="https://rolandliuay.github.io/" target="_blank">homepage</a>]</b><br>
+    <i>Undergraduate Researcher</i>
+    </td>
+  </tr>
+
 </table>
 
 # Alumni
