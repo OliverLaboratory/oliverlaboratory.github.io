@@ -89,7 +89,7 @@ a {
 
  <tr>
     <td><img src="/assets/jason.jpg" class="member-img" alt="Jason Wang"></td>
-    <td><b>Jason Wang</b><br>
+    <td><b>Jason Wang [<a href="https://jasonwang2002.github.io/" target="_blank">homepage</a>]</b><br>
     <i>MD-PhD Student (Medical Scientist Training Program)</i>
     </td>
   </tr>
