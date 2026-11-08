@@ -104,7 +104,7 @@ a {
  <tr>
     <td><img src="/assets/angela.jpg" class="member-img" alt="Angela Milkowski"></td>
     <td><b>Angela Milkowski</b><br>
-    <i>Rotation Student</i>
+    <i>Quantitative & Chemical Biology (QCB) Rotation Student</i>
     </td>
   </tr>
 
